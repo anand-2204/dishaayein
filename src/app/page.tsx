@@ -52,7 +52,7 @@ export default function Home() {
             <span className="orbit-dot" style={{width: '6px',height: '6px',top: '75%',left: '22%',animationDelay: '.6s'}}></span>
             <span className="orbit-dot" style={{width: '8px',height: '8px',top: '65%',left: '80%',animationDelay: '1.2s'}}></span>
             <span className="orbit-dot" style={{width: '5px',height: '5px',top: '12%',left: '20%',animationDelay: '1.8s'}}></span>
-            <Image src="/logos/Dark Vertical.png" alt="Dishaayein Technology logo mark" width={200} height={200} />
+            <Image src="/logos/Dark Vertical.png" alt="Dishaayein Technology logo mark" width={180} height={250} />
           </div>
         </div>
       </section>
