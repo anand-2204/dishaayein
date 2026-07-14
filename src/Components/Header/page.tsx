@@ -13,20 +13,19 @@ const Header = () => {
             <Image
               src="/logos/light Horizontal.png"
               alt="Dishaayein logo mark"
-              width={200}
-              height={100}
+              width={420}   
+              height={120}   
               priority
             />
           ) : (
             <Image
               src="/logos/Dark Horizontal.png"
               alt="Dishaayein logo mark"
-              width={200}
-              height={100}
+              width={420}
+              height={120}
               priority
             />
           )}
-          Dishaayein <span className="sub">Technology</span>
         </div>
 
         <div className="navlinks">
@@ -41,6 +40,7 @@ const Header = () => {
             onClick={toggleTheme}
             aria-label="Toggle dark mode"
           >
+            {/* Sun Icon */}
             <svg
               className="sun"
               viewBox="0 0 24 24"
@@ -54,6 +54,7 @@ const Header = () => {
                 strokeLinecap="round"
               />
             </svg>
+            {/* Moon Icon */}
             <svg
               className="moon"
               viewBox="0 0 24 24"

@@ -47,18 +47,18 @@ const ContactSection = () => {
               <Image
                 src="/logos/light Vertical.png"
                 alt="Dishaayein logo light"
-                width={200}
-                height={200}
+                width={120}
+                height={170}
               />
             ) : (
               <Image
                 src="/logos/Dark Vertical.png"
                 alt="Dishaayein logo dark"
-                width={200}
-                height={200}
+                width={120}
+                height={170}
               />
             )}
-            Dishaayein Technology
+            
           </div>
 
           <div>
