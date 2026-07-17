@@ -54,7 +54,7 @@ const ContactSection = () => {
               />
             ) : (
               <Image
-                src="/logo/Dark Vertical.png"
+                src="/logo/dark Vertical.png"
                 alt="Dishaayein logo dark"
                 width={219}
                 height={219}

@@ -19,7 +19,7 @@ const Header = () => {
             />
           ) : (
             <Image
-              src="/logo/Dark Horizontal.png"
+              src="/logo/dark Horizontal.png"
               alt="Dishaayein logo mark"
               width={260}
               height={65}
