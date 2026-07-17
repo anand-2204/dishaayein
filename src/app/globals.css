@@ -398,7 +398,7 @@ nav.wrap {
     transform: scale(1.3);
   }
 }
-
+/* 
 @media(max-width:900px) {
   .hero-inner {
     grid-template-columns: 1fr;
@@ -408,6 +408,37 @@ nav.wrap {
     display: none;
   }
 }
+ */
+@media(max-width:900px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .hero-visual .ring {
+    width: 240px;
+    height: 240px;
+  }
+
+  .hero-visual .ring.r2 {
+    width: 320px;
+    height: 320px;
+    opacity: 0.6;
+  }
+
+  .hero-visual img {
+    width: 160px;
+    height: auto;
+  }
+}
+
 
 /* ---------- SECTION SHELL ---------- */
 section {

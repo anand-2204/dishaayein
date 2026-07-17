@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useTheme } from "../../Context/ThemeContext";
+import { lazy } from "react";
 
 const ContactSection = () => {
   const { theme } = useTheme();
@@ -45,17 +46,19 @@ const ContactSection = () => {
           <div className="flogo">
             {theme === "light" ? (
               <Image
-                src="/logos/light Vertical.png"
+                src="/logo/light Vertical.png"
                 alt="Dishaayein logo light"
-                width={120}
-                height={170}
+                width={219}
+                height={219}
+                loading = 'lazy'
               />
             ) : (
               <Image
-                src="/logos/Dark Vertical.png"
+                src="/logo/Dark Vertical.png"
                 alt="Dishaayein logo dark"
-                width={120}
-                height={170}
+                width={219}
+                height={219}
+                loading='lazy'
               />
             )}
             

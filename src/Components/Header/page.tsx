@@ -11,18 +11,18 @@ const Header = () => {
         <div className="brandmark">
           {theme === "light" ? (
             <Image
-              src="/logos/light Horizontal.png"
+              src="/logo/light Horizontal.png"
               alt="Dishaayein logo mark"
-              width={420}   
-              height={120}   
+              width={260}   
+              height={65}   
               priority
             />
           ) : (
             <Image
-              src="/logos/Dark Horizontal.png"
+              src="/logo/Dark Horizontal.png"
               alt="Dishaayein logo mark"
-              width={420}
-              height={120}
+              width={260}
+              height={65}
               priority
             />
           )}
