@@ -40,16 +40,7 @@ const Header = () => {
           </div>
 
           <div className="nav-right">
-            {/* Hamburger Menu Button */}
-            <button
-              className={`menu-toggle ${menuOpen ? 'active' : ''}`}
-              onClick={() => setMenuOpen(!menuOpen)}
-              aria-label="Toggle menu"
-            >
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
+           
 
             <button
               className="theme-toggle"
@@ -85,6 +76,15 @@ const Header = () => {
             <a className="nav-cta" href="#contact">
               Partner With Us
             </a>
+            <button
+              className={`menu-toggle ${menuOpen ? 'active' : ''}`}
+              onClick={() => setMenuOpen(!menuOpen)}
+              aria-label="Toggle menu"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
           </div>
         </nav>
       </header>
